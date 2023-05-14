@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sim ou Não</title>
+</head>
+<body> 
+    <h1>quem é mais legal?</h1>
+	<p>Clique no botão abaixo para ir para o YouTube:</p>
+	<a href="https://www.alanzin.com" target="_blank">Ir para o YouTube</a>
+	<h1>alan ou nayara?</h1>
+	<p>?????? :</p>
+	<button id="yes">nayara</button>
+	<button id="no">alan</button>
+	<script>
+		var yesButton = document.getElementById("yes");
+		var noButton = document.getElementById("no");
+
+		yesButton.addEventListener("click", function() {
+			window.location.href = "https://www.youtube.com/watch?v=xaPepCVepCg&ab_channel=BBC";
+		});
+
+		noButton.addEventListener("click", function() {
+			window.location.href = "https://www.youtube.com/watch?v=xaPepCVepCg&ab_channel=BBCVIDEO_ID_NAO";
+		});
+	</script>
+	<p>Clique no botão abaixo para ir para o YouTube:</p>
+	<a href="https://www.youtube.com/" target="_blank">Ir para o YouTube</a>
+</body>
+</html>
